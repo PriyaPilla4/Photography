@@ -1,0 +1,70 @@
+$color: rgb(62, 165, 224);
+
+h1 {
+    color: rgb(3, 91, 150);
+    text-align: center;
+}
+
+  h3{
+    color: rgb(9, 99, 129);
+}
+
+ul > li {
+    color: $color;
+    
+}
+
+#line1{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+  a::before {
+    content: "\21d2  Click here: ";
+    font-weight: bold;
+  } 
+
+  table{
+      border: 2px solid black;
+      border-collapse: collapse;
+      width: 50%;
+  }
+
+  %message{
+      border: 1px solid black;
+      padding: 5px;
+      text-align: center;
+  }
+
+  th{
+      @extend %message;
+      background-color: light grey;
+  }
+
+  td{
+      @extend %message;
+      background-color: white;
+  }
+
+  @media (max-width: 499px) {
+    .image2{
+        display: none;
+    }
+}
+
+table{
+    tr{
+        th{
+            color: purple;
+        }
+    }
+}
+  
+
+
+
+  
+  

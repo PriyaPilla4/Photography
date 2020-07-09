@@ -1,0 +1,57 @@
+@charset "UTF-8";
+h1 {
+  color: #035b96;
+  text-align: center;
+}
+
+h3 {
+  color: #096381;
+}
+
+ul > li {
+  color: #3ea5e0;
+}
+
+#line1 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+a::before {
+  content: "⇒ Click here: ";
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: light grey;
+}
+
+td {
+  background-color: white;
+}
+
+@media (max-width: 499px) {
+  .image2 {
+    display: none;
+  }
+}
+table tr th {
+  color: purple;
+}
+
+/*# sourceMappingURL=index0.css.map */
